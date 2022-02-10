@@ -1,8 +1,6 @@
 from fpdf import FPDF
 import json
 
-#fileName = input('Enter Specific JSON File Name: ')
-#f = open(fileName)
 f = open('assignment9.json')
 data = json.load(f)
 
