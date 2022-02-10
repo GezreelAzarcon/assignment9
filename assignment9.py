@@ -4,6 +4,7 @@ import json
 f = open('assignment9.json')
 data = json.load(f)
 
+
 name = data['name']
 age = data['age']
 address = data['address']
